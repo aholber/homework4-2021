@@ -84,6 +84,7 @@ tr:hover{
   text-transform: uppercase;
   background: #7e0825;
   margin: auto;
+  vertical-align: middle;
 }
 
 .rowhead{
