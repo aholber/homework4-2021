@@ -33,8 +33,8 @@ body{
   font-family: 'Andika', sans-serif;
   background-image: url("../images/pigeon-background.JPEG");;
   background-color: #DDDDDD;
-  /* background-repeat: no-repeat;
-  background-size: auto; */
+  background-repeat: no-repeat;
+  /* background-size: auto; */
   /*Req 1*/
 }
 
@@ -83,12 +83,13 @@ tr:hover{
   padding: 10px;
   text-transform: uppercase;
   background: #7e0825;
-  text-align: center;
+  margin: auto;
 }
 
 .rowhead{
   border-top: 2px solid #000000;
   border-right: 2px solid #000000;
+  vertical-align: middle;
 }
 
 
@@ -102,31 +103,31 @@ table{
 /* I gave you the selector, but not the property-value pair. 
 You can use Inspect Element or your editor to find selectors. */
 thead tr:first-child th:first-child{
-  border-radius: 45px 0 0 0;
+  border-radius: 50px 0 0 0;
 }
 
 /*Add selectors and rules here*/
 thead tr:last-child th:last-child{
-  border-radius: 0 45px 0 0;
+  border-radius: 0 50px 0 0;
 }
 
 tbody tr:last-child th:first-child{
-  border-radius: 0 0 0 45px;
+  border-radius: 0 0 0 50px;
 }
 
 tr:last-child td:last-child{
-  border-radius: 0 0 45px 0;
+  border-radius: 0 0 50px 0;
 }
 
 
 footer{
-  width:100%;
+  width: 100vw;
   min-height: 75px;
   background:#000000;
-  text-align:center;
+  text-align:center; 
   color: #FFFFFF;
+  position: fixed; 
+  bottom: 0;
+  left: 0; 
 
-  /* position: absolute bottom;
-  margin: auto 0; */
-  
 }
